@@ -9,7 +9,8 @@ import { Component, OnInit } from '@angular/core';
   /* the template-line musn't be wrapped when you've used single quotes.
   (not supporrted in default typescript strings)
   in case you want to add multiple lines, use backticks! */
-  styleUrls: ['./servers.component.css']
+  // styleUrls: ['./servers.component.css']
+  styles: ['p {color: green;}']
 })
 export class ServersComponent implements OnInit {
 
